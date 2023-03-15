@@ -1,8 +1,10 @@
+/* Adding font "opensans" for use globally */
 @font-face {
   font-family: opensans;
   src: url('OpenSans-Regular.ttf');
 }
 
+/* Adding color variables for use across style sheet */
 :root {
   --bg_color: #222222;
   --main_font_color: #FFE9C1;
@@ -11,6 +13,8 @@
   --subscript_color: #FFC1C1;
 }
 
+/* Global style for all elements, applies background color for entire page, base color for most text elements,
+aligns all elements to center and applies font globally */
 * {
   background-color: var(--bg_color);
   color: var(--main_font_color);
@@ -18,53 +22,70 @@
   font-family: opensans;
 }
 
+/* Styles heading "Necromancing the Stone" to be largest text on page @40px and sets line height lower to 
+create unified heading block with sub-heading (h3) */
 h1 {
   font-size: 40px;
-  line-height: 20px;
+  line-height: 10px;
 }
 
+/* Much the same as above, though smaller font to give off appearance of being a subheading */
 h3 {
   font-size: 30px;
-  line-height: 20px;
+  line-height: 10px;
 }
 
+/* Main class for primary content, i.e. "Please enter your value here etc" */
 div.content {
-  line-height: 15px;
+  line-height: 20px;
   font-size: 16px;
 }
 
+/* Creates spacing between labels and input */
+label {
+  line-height: 50px;
+}
+
+/* Formats the input area with bg color, rounded edges and padding */
 input {
   border: none;
   background-color: #2c2c2c;
-  border-radius: 15px;
-  padding: 2%;
+  border-radius: 10px;
+  padding: 1.5%;
 }
 
+/* Disables spin wheel buttons on number input for all browsers except firefox */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
+/* Disables spin wheel buttons for number input on firefox */
 input[type=number] {
   appearance: textfield;
 }
 
+/* Sets size of input text font to 16 to disable auto-focus on mobile browsers (autofocus occurs when
+text font size is 11px or less) */
 input[type=number],
 textarea {
   font-size: 16px;
 }
 
+/* Legacy class, leaving in case I want to use it again ever */
 span.subscript {
   color: var(--subscript_color);
   font-size: 14px;
 }
 
+/* Highlights number values in return string from js (used in calc.js) */
 span.highlight {
   font-weight: bold;
   color: var(--highlight_color);
 }
 
+/* Fixes footer to bottom of screen */
 footer {
   position: fixed;
   left: 0;
@@ -72,6 +93,7 @@ footer {
   width: 100%;
 }
 
+/* Formats footer text */
 p.footer {
   font-size: 80%;
   color: #f6dcacb8;
