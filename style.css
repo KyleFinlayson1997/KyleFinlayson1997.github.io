@@ -25,13 +25,13 @@ aligns all elements to center and applies font globally */
 /* Styles heading "Necromancing the Stone" to be largest text on page @40px and sets line height lower to 
 create unified heading block with sub-heading (h3) */
 h1 {
-  font-size: 48px;
+  font-size: 48vw;
   line-height: 10px;
 }
 
 /* Much the same as above, though smaller font to give off appearance of being a subheading */
 h3 {
-  font-size: 36px;
+  font-size: 36vw;
   line-height: 10px;
 }
 
@@ -76,13 +76,13 @@ input[type=number] {
 text font size is 11px or less) */
 input[type=number],
 textarea {
-  font-size: 20px;
+  font-size: 20vw;
 }
 
 /* Legacy class, leaving in case I want to use it again ever */
 span.subscript {
   color: var(--subscript_color);
-  font-size: 14px;
+  font-size: 14vw;
 }
 
 /* Highlights number values in return string from js (used in calc.js) */
@@ -101,7 +101,7 @@ footer {
 
 /* Formats footer text */
 p.footer {
-  font-size: 80%;
+  font-size: 14vw;
   color: #f6dcacb8;
   font-style: italic;
 }
