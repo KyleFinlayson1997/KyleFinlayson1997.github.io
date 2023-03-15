@@ -38,7 +38,6 @@ input {
   background-color: #2c2c2c;
   border-radius: 15px;
   padding: 2%;
-  width: 100%;
 }
 
 input::-webkit-outer-spin-button,
@@ -56,6 +55,9 @@ textarea {
   font-size: 16px;
 }
 
-
+p.footer {
+  font-size: 80%;
+  color: #f6dcacb8;
+}
 
 
