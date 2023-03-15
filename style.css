@@ -32,7 +32,6 @@ div.content {
   line-height: 15px;
   font-size: 16px;
 }
-}
 
 input {
   border: none;
@@ -54,6 +53,16 @@ input[type=number] {
 input[type=number],
 textarea {
   font-size: 16px;
+}
+
+span.subscript {
+  color: var(--subscript_color);
+  font-size: 14px;
+}
+
+span.highlight {
+  font-weight: bold;
+  color: var(--highlight_color);
 }
 
 footer {
