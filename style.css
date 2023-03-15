@@ -48,10 +48,16 @@ label {
 
 /* Formats the input area with bg color, rounded edges and padding */
 input {
-  border: none;
+  border-color: var(--main_font_color);
+  border-style: solid;
   background-color: #2c2c2c;
   border-radius: 10px;
   padding: 1.5%;
+}
+
+/* Disables gross focus on input that ruins the A E S T H E T I C */
+input:focus {
+  outline: none;
 }
 
 /* Disables spin wheel buttons on number input for all browsers except firefox */
