@@ -25,20 +25,20 @@ aligns all elements to center and applies font globally */
 /* Styles heading "Necromancing the Stone" to be largest text on page @40px and sets line height lower to 
 create unified heading block with sub-heading (h3) */
 h1 {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 10px;
 }
 
 /* Much the same as above, though smaller font to give off appearance of being a subheading */
 h3 {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 10px;
 }
 
 /* Main class for primary content, i.e. "Please enter your value here etc" */
 div.content {
   line-height: 20px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Creates spacing between labels and input */
@@ -72,11 +72,11 @@ input[type=number] {
   appearance: textfield;
 }
 
-/* Sets size of input text font to 16 to disable auto-focus on mobile browsers (autofocus occurs when
+/* Sets size of input text font to disable auto-focus on mobile browsers (autofocus occurs when
 text font size is 11px or less) */
 input[type=number],
 textarea {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Legacy class, leaving in case I want to use it again ever */
