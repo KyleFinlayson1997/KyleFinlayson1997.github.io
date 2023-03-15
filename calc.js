@@ -1,3 +1,5 @@
+import { quotes } from 'data.js'
+
 function setup() {
     var userInput = document.getElementById('userInput');
     var resultLabel = document.getElementById('resultLabel');
@@ -12,6 +14,8 @@ function setup() {
             resultLabel.innerHTML = returnString(daysPassed);
         }
     });
+
+    quoteLabel.innerHTML = `<blockquote cite="${quotes[0].speaker}">${quotes[0].quote}`
 
     function returnString(x) {
         var MESSAGE;
