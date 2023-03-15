@@ -14,9 +14,14 @@ span {
   color: red;
 }
 
+span.subscript {
+  color: #ffe9c1;
+  font-size: 100%;
+}
+
 h1, h3 {
   line-height: 20px;
-  font-size: 130vw;
+  font-size: 130%;
 }
 
 h1 {
@@ -45,6 +50,12 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   appearance: textfield;
 }
+
+input[type=number],
+textarea {
+  font-size: 16px;
+}
+
 
 
 
