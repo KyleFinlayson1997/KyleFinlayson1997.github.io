@@ -25,20 +25,20 @@ aligns all elements to center and applies font globally */
 /* Styles heading "Necromancing the Stone" to be largest text on page @40px and sets line height lower to 
 create unified heading block with sub-heading (h3) */
 h1 {
-  font-size: 48vw;
+  font-size: 36px;
   line-height: 10px;
 }
 
 /* Much the same as above, though smaller font to give off appearance of being a subheading */
 h3 {
-  font-size: 36vw;
+  font-size: 24px;
   line-height: 10px;
 }
 
 /* Main class for primary content, i.e. "Please enter your value here etc" */
 div.content {
   line-height: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* Creates spacing between labels and input */
@@ -52,7 +52,7 @@ input {
   border-style: solid;
   background-color: #2c2c2c;
   border-radius: 10px;
-  padding: 1.5%;
+  padding: 1%;
 }
 
 /* Disables gross focus on input that ruins the A E S T H E T I C */
@@ -76,13 +76,13 @@ input[type=number] {
 text font size is 11px or less) */
 input[type=number],
 textarea {
-  font-size: 20vw;
+  font-size: 16px;
 }
 
 /* Legacy class, leaving in case I want to use it again ever */
 span.subscript {
   color: var(--subscript_color);
-  font-size: 14vw;
+  font-size: 12px;
 }
 
 /* Highlights number values in return string from js (used in calc.js) */
@@ -101,7 +101,7 @@ footer {
 
 /* Formats footer text */
 p.footer {
-  font-size: 14vw;
+  font-size: 12px;
   color: #f6dcacb8;
   font-style: italic;
 }
