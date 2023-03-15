@@ -3,34 +3,35 @@
   src: url('OpenSans-Regular.ttf');
 }
 
+:root {
+  --bg_color: #222222;
+  --main_font_color: #FFE9C1;
+  --highlight_color: #FF3434;
+  --input_bg_color: #2C2C2C;
+  --subscript_color: #FFC1C1;
+}
+
 * {
-  background-color: #222222;
-  color: #ffe9c1;
+  background-color: var(--bg_color);
+  color: var(--main_font_color);
   text-align: center;
   font-family: opensans;
-} 
-
-span {
-  color: red;
-}
-
-span.subscript {
-  color: #ffe9c1;
-  font-size: 100%;
-}
-
-h1, h3 {
-  line-height: 20px;
-  font-size: 130%;
 }
 
 h1 {
-  font-size: 175%;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 20px;
 }
 
 div.content {
-  line-height: 250%;
-  font-size: 105%;
+  line-height: 15px;
+  font-size: 16px;
+}
 }
 
 input {
@@ -67,5 +68,3 @@ p.footer {
   color: #f6dcacb8;
   font-style: italic;
 }
-
-
