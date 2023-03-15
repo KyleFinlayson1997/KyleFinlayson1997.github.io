@@ -1,6 +1,7 @@
 function setup() {
     var userInput = document.getElementById('userInput');
     var resultLabel = document.getElementById('resultLabel');
+    var quoteLabel = document.getElementById('quoteLabel');
 
     userInput.addEventListener('input', function () {
         var daysPassed = userInput.valueAsNumber;

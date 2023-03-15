@@ -1,0 +1,20 @@
+quotes = [
+  { quote = `By the way... Do you happen to know what the fine is here in Cyrodiil for necrophilia? Just asking.`,
+    speaker = `Falanu Hlaalu` }
+  { quote = `By Azura! By Azura! By Azura! It's the grand champion, I can't believe its you standing here next to me.`,
+    speaker = `The Adoring Fan` }
+  { quote= `You sleep rather soundly for a murderer.` 
+    speaker = `Lucien Lachance` }
+  { quote = `STOP RIGHT THERE, CRIMINAL SCUM! Your spree is at an end.` 
+    speaker = `Nameless Guard` }
+  { quote = `I've fought mudcrabs more fearsome than you.` 
+    speaker = `Countless Enemies` }
+  { quote = `Go, go! Socialize! Talk to those fine people, and then plunge your knife into their throats when they ain't lookin'!` 
+    speaker = `Fafnir` }
+  { quote = `Close shut the jaws of Oblivion.` 
+    speaker = `Sir Patrick Stewart` }
+  { quote = `I heard a rumor that you're an idiot. Any truth to that?` 
+    speaker = `Owyn` }
+  { quote = `We'll be knights...` 
+    speaker = `Mazoga the Orc` }
+]
