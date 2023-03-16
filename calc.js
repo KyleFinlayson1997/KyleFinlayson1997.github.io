@@ -11,7 +11,7 @@ function setup() {
             resultLabel.innerHTML = returnString(daysPassed);
         }
         else {
-            resultLabel.innerHTML = 'Unlike your acrobatics skill, this script has an upper limit of 9999 to prevent crashes.'
+            resultLabel.innerHTML = 'Unlike your acrobatics skill, this script has an upper limit of <span class="highlight">9999</span> to prevent crashes.'
         }
     });
 
