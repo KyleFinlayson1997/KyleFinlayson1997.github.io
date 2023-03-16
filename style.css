@@ -47,7 +47,7 @@ div.content {
 
 /* Creates spacing between labels and input */
 label {
-  line-height: 50px;
+  line-height: 20px;
 }
 
 /* Formats the input area with bg color, rounded edges and padding */
