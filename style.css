@@ -35,6 +35,10 @@ h3 {
   margin: 0;
 }
 
+p {
+  margin: 5px;
+}
+
 /* Main class for primary content, i.e. "Please enter your value here etc" */
 div.content {
   line-height: 20px;
@@ -85,6 +89,8 @@ a {
 }
 
 hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
   color: var(--main_font_color);
 }
 
