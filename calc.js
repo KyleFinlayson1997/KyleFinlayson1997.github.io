@@ -7,8 +7,11 @@ function setup() {
         if (isNaN(daysPassed)) {
             resultLabel.innerHTML = '...';
         }
-        else {
+        else if (daysPassed <= 9999) {
             resultLabel.innerHTML = returnString(daysPassed);
+        }
+        else {
+            resultLabel.innerHTML = 'Unlike your acrobatics skill, this script has an upper limit of 9999 to prevent crashes.'
         }
     });
 
