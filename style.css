@@ -26,13 +26,13 @@ aligns all elements to center and applies font globally */
 create unified heading block with sub-heading (h3) */
 h1 {
   font-size: 36px;
-  line-height: 10px;
+  margin: 0;
 }
 
 /* Much the same as above, though smaller font to give off appearance of being a subheading */
 h3 {
   font-size: 24px;
-  line-height: 10px;
+  margin: 0;
 }
 
 /* Main class for primary content, i.e. "Please enter your value here etc" */
@@ -48,6 +48,7 @@ label {
 
 /* Formats the input area with bg color, rounded edges and padding */
 input {
+  margin: 0;
   border-color: var(--main_font_color);
   border-style: solid;
   background-color: #2c2c2c;
@@ -77,6 +78,10 @@ text font size is 11px or less) */
 input[type=number],
 textarea {
   font-size: 16px;
+}
+
+a {
+  font-style: italic;
 }
 
 /* Legacy class, leaving in case I want to use it again ever */
